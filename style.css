@@ -28,7 +28,7 @@ body{
 }
 
 .nav-link:hover{
-    color: #6074db !important;
+    color: red !important;
 }
 .contact-btn{
     width: 168px;
