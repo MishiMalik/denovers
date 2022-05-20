@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="coin" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-1{fill:#32325d}
+        </style>
+    </defs>
+    <g id="Group_4659" data-name="Group 4659">
+        <g id="Group_4658" data-name="Group 4658">
+            <path id="Path_6554" d="M27.314 4.686A16 16 0 0 0 4.686 27.314 16 16 0 0 0 27.314 4.686zM16 30.125A14.125 14.125 0 1 1 30.125 16 14.141 14.141 0 0 1 16 30.125z" class="cls-1" data-name="Path 6554"/>
+        </g>
+    </g>
+    <g id="Group_4661" data-name="Group 4661" transform="translate(11.046 6.025)">
+        <g id="Group_4660" data-name="Group 4660">
+            <path id="Path_6555" d="M182.692 105.438h-2.008a2.075 2.075 0 1 1 0-4.15h4.016a.938.938 0 0 0 0-1.875h-2.075v-2.074a.937.937 0 1 0-1.875 0v2.075h-.067a3.95 3.95 0 1 0 0 7.9h2.008a2.075 2.075 0 0 1 0 4.15h-4.017a.937.937 0 0 0 0 1.875h2.075v2.075a.937.937 0 1 0 1.875 0v-2.075h.067a3.95 3.95 0 0 0 0-7.9z" class="cls-1" data-name="Path 6555" transform="translate(-176.734 -96.401)"/>
+        </g>
+    </g>
+</svg>

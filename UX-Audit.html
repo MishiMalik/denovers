@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- fonts family -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    rel="stylesheet"
+  />
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="owlcarousel/assets/owl.theme.default.min.css"
+    />
+    <!-- style sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="font.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      href="Intel/intlTelInput.css"
+      rel="stylesheet"
+    />
+    <title>Denovers</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light mb-5 no-mb">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/index.svg" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mt-2">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html#_how-it-works"
+                  >How It Works</a
+                >
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ourwork.html" tabindex="-1" aria-disabled="true"
+                  >Our Work</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="UX-Audit.html" tabindex="-1" aria-disabled="true"
+                  >UX Audit</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html" tabindex="-1" aria-disabled="true"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex mt-3">
+                                          <button class="btn contact-btn" type="submit"><a href="contact-us.html" class="no-decoration">Contact us</a></button>
+
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+     
+    <div class="container">
+        <div class="row">
+          <div class="ux-audit col-12 col-md-6 col-lg-6">
+            <h1>Request a UX Audit for Conversion Optimization</h1>
+  
+            <p>
+              Get a UX Audit for Conversion Optimization. Our Product Experience
+              Architect will personally walk through your product and will craft
+              an Audit report based on the performance, landing page and SaaS /
+              Mobile App.
+            </p>
+  
+            <ul class="audit-list desktop">
+              <li>
+                <span><img alt="" src="images/green-check.svg" /></span
+                ><span>Audit of Your Landing Page</span>
+              </li>
+              <li>
+                <span><img alt="" src="images/green-check.svg" /></span
+                ><span>Audit of Your Apps Performance</span>
+              </li>
+              <li>
+                <span><img alt="" src="images/green-check.svg" /></span
+                ><span>Audit of Your Actual SaaS or Mobile App </span>
+              </li>
+              <li>
+                <span><img alt="" src="images/green-check.svg" /></span
+                ><span
+                  >Recommendations &amp; a consulting call with our Product
+                  Experience Architect</span
+                >
+              </li>
+            </ul>
+          </div>
+  
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="ux-audit-form">
+              <div class="form-top">
+                <h2>
+                  <span><del>$2999</del></span> <span>$999</span>
+                </h2>
+  
+                <!-- <p>*Few Free Slots Left</p> -->
+              </div>
+  
+              <div id="emptyError"></div>
+  
+              <form
+                action="https://formspree.io/mjvpbyvn"
+                id="audit_Form"
+                method="POST"
+              >
+                <div class="input-container form-group">
+                  <label for="fullname">Full Name <span>*</span></label>
+                  <input
+                    class="form-control"
+                    id="fullname"
+                    name="fullName"
+                    placeholder="Enter your full name"
+                    required=""
+                    type="text"
+                  />
+                </div>
+  
+                <div class="input-container form-group">
+                  <label for="email">Email <span>*</span></label>
+  
+                  <div class="error" id="emailError"></div>
+                  <input
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your work email"
+                    required=""
+                    type="email"
+                  />
+                </div>
+  
+                <div class="input-container form-group phNumber">
+                  <label for="phoneNumber">Phone Number <span>*</span></label>
+                  <input
+                    class="form-control"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    required=""
+                    type="tel"
+                  />
+                </div>
+  
+                <div class="input-container form-group">
+                  <label for="productUrl">Product Name or URL</label>
+                  <input
+                    class="form-control"
+                    id="productUrl"
+                    name="product"
+                    placeholder="Enter your work product"
+                    required=""
+                    type="text"
+                  />
+                </div>
+  
+                <div class="input-container form-group">
+                  <label for="designTeam">Do you have a Design Team?</label>
+                  <select class="form-control" id="designTeam" name="designTeam">
+                    <option>No, we don&#39;t</option>
+                    <option>Yes, we have an inhouse Product Design Team</option>
+                    <option>We work with freelancers</option>
+                    <option>Founders Design as well</option>
+                    <option>We work with an agency</option>
+                    <option>Others</option>
+                  </select>
+                </div>
+  
+                <div class="input-container form-group">
+                  <label for="details">Share any Details</label
+                  ><textarea
+                    class="form-control"
+                    id="details"
+                    name="message"
+                    placeholder="Tell us about your product so it can help us in better preparing your audit report"
+                    type="text"
+                  ></textarea>
+                </div>
+  
+                <div class="input-container">
+                  <button class="btn submitBtn" id="submit_btn" type="submit">
+                    Apply for a UX Audit
+                    <span
+                      ><img alt="" src="images/right-arrow.svg"
+                    /></span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+  
+          <div class="col-12 col-sm-12">
+            <ul class="audit-list mobile">
+              <li>
+                <span><img alt="" src="images/green-check.svg" /></span
+                ><span>Audit of Your Landing Page</span>
+              </li>
+              <li>
+                <span><img alt="" src="images/green-check.svg" /></span
+                ><span>Audit of Your Apps Performance</span>
+              </li>
+              <li>
+                <span><img alt="" src="images/green-check.svg" /></span
+                ><span>Audit of Your Actual SaaS or Mobile App </span>
+              </li>
+              <li>
+                <span><img alt="" src="images/green-check.svg" /></span
+                ><span
+                  >Recommendations &amp; a free consulting call with our Product
+                  Experience Architect</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-left col-md-8">
+            <div class="footer-logo mb-5">
+              <a href="./index.html">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="145.203"
+                  height="24.56"
+                  viewBox="0 0 145.203 24.56"
+                >
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill: #fff;
+                      }
+                    </style>
+                  </defs>
+                  <g
+                    id="Group_5455"
+                    data-name="Group 5455"
+                    transform="translate(-6052 158.051)"
+                  >
+                    <g
+                      id="Group_2945"
+                      data-name="Group 2945"
+                      transform="translate(6052 -158.051)"
+                    >
+                      <path
+                        id="XMLID_243_"
+                        d="M185.629 302.567a2.292 2.292 0 0 1 2.509-2.567h6.913c3.7 0 6.446.992 8.255 2.975 1.838 2.071 2.771 5.1 2.771 9.072a14.985 14.985 0 0 1-1.05 5.834 10.546 10.546 0 0 1-2.917 4.084 8.681 8.681 0 0 1-3.267 1.663 20.882 20.882 0 0 1-5.134.5H185.6v-21.561zm8.809 17.21c2.3 0 3.967-.613 4.988-1.808 1.05-1.2 1.6-3.179 1.6-5.892 0-2.684-.5-4.638-1.458-5.892a5.291 5.291 0 0 0-4.492-1.954H190.5v15.518h3.938z"
+                        class="cls-1"
+                        transform="translate(-185.6 -300)"
+                      />
+                      <path
+                        id="XMLID_240_"
+                        d="M279.885 330.7a8.119 8.119 0 0 1-2.771 4.638 9.448 9.448 0 0 1-5.4 1.517c-5.688-.175-8.517-3.471-8.517-9.83q0-9.582 8.6-9.626 8.926 0 8.372 11.026h-12.127c.175 2.859 1.429 4.288 3.734 4.288a4.4 4.4 0 0 0 3.063-1.313 2.016 2.016 0 0 1 1.6-.7zm-4.7-5.688c-.292-2.509-1.429-3.734-3.471-3.734s-3.238 1.254-3.617 3.734z"
+                        class="cls-1"
+                        transform="translate(-240.565 -312.324)"
+                      />
+                      <path
+                        id="XMLID_238_"
+                        d="M342.593 336.376q-2.363-.131-2.363-2.363v-9.626c-.087-1.954-1.167-2.917-3.267-2.917-2.071 0-3.15.963-3.179 2.917v11.988H329v-11.024q0-8.051 8.051-8.051t7.963 8.051v11.026z"
+                        class="cls-1"
+                        transform="translate(-287.172 -312.254)"
+                      />
+                      <path
+                        id="XMLID_235_"
+                        d="M407.835 327.172q0 9.713-8.517 9.713t-8.517-9.713q0-9.757 8.517-9.772t8.517 9.772zm-12.251 0c.058 3.646 1.283 5.484 3.675 5.484s3.617-1.867 3.675-5.6c0-3.646-1.2-5.484-3.617-5.484-2.479-.03-3.733 1.866-3.733 5.6z"
+                        class="cls-1"
+                        transform="translate(-330.945 -312.324)"
+                      />
+                      <path
+                        id="XMLID_233_"
+                        d="M460.092 337.085L453.5 318.3h5.192l3.821 13.155 3.267-11.493a2.223 2.223 0 0 1 2.275-1.663h3.675l-6.65 18.785z"
+                        class="cls-1"
+                        transform="translate(-375.356 -312.962)"
+                      />
+                      <path
+                        id="XMLID_230_"
+                        d="M536.085 330.7a8.119 8.119 0 0 1-2.771 4.638 9.448 9.448 0 0 1-5.4 1.517c-5.688-.175-8.517-3.471-8.517-9.83q0-9.582 8.6-9.626 8.926 0 8.4 11.026h-12.155c.175 2.859 1.429 4.288 3.734 4.288a4.395 4.395 0 0 0 3.063-1.313 2.016 2.016 0 0 1 1.6-.7zm-4.7-5.688c-.263-2.509-1.429-3.734-3.471-3.734s-3.238 1.254-3.617 3.734z"
+                        class="cls-1"
+                        transform="translate(-422.034 -312.324)"
+                      />
+                      <path
+                        id="XMLID_228_"
+                        d="M585.2 327.471c.146-6.067 3.354-9.072 9.626-9.072h.7v4.93h-1.6c-2.625 0-3.938 1.371-3.938 4.084v9.772H585.2z"
+                        class="cls-1"
+                        transform="translate(-468.641 -313.033)"
+                      />
+                      <path
+                        id="XMLID_226_"
+                        d="M631.142 330.293a2.4 2.4 0 0 0 1.05 2.071 4.642 4.642 0 0 0 2.83.7c1.984 0 2.975-.612 2.975-1.808 0-.963-1.6-1.721-4.842-2.275-4.171-.729-6.271-2.6-6.3-5.542a5.472 5.472 0 0 1 2.012-4.439 9.014 9.014 0 0 1 5.484-1.6 9.326 9.326 0 0 1 5.749 1.6 5.943 5.943 0 0 1 2.217 4.579h-2.975c-1.108-.058-1.808-.437-2.071-1.167-.321-.846-1.283-1.254-2.829-1.254-1.838 0-2.771.5-2.771 1.458s1.225 1.692 3.675 2.159c3.179.642 5.28 1.458 6.3 2.421a4.7 4.7 0 0 1 1.313 3.325 5.461 5.461 0 0 1-2.217 4.725c-1.429 1.05-3.559 1.6-6.388 1.6-2.625 0-4.609-.554-5.892-1.663a5.645 5.645 0 0 1-2.159-4.842h4.842z"
+                        class="cls-1"
+                        transform="translate(-497.752 -312.324)"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </div>
+
+            <h3 class="Lets-get-started">Let&#39;s get started</h3>
+
+            <p>
+              Try us risk-free for 7 days. Don&#39;t love us? Get your money
+              back.
+            </p>
+
+            <div>
+              <button class="get-trial">
+                <a href="https://calendly.com/muzammilkesrani/denovers">
+                  Book a Demo
+                </a>
+              </button>
+              <a href="./contact-us.html" target="_blank">
+                <button class="book-a-demo">Contact us</button></a
+              >
+            </div>
+
+            <p class="email-desktop">Denovers, LLC | info@denovers.com</p>
+          </div>
+
+          <nav class="footer-right col-md-4">
+            <!-- <p class="text-right">Navigation</p> -->
+
+            <ul class="mt-4">
+              <li><a href="./ourwork.html">Our Work</a></li>
+              <li><a href="./pricing.html">Pricing</a></li>
+              <li><a href="./UX-Audit.html">UX Audit</a></li>
+              <li>
+                <a href="./services/front-end-development-company.html"
+                  >Front End Development</a
+                >
+              </li>
+              <li><a href="https://denovers.com/blog/">Blog </a></li>
+              <li>
+                <a href="https://denovers.breezy.hr/" target="__blank"
+                  >Careers</a
+                >
+              </li>
+              <li><a href="./contact-us.html">Contact us</a></li>
+              <li>
+                <a href="./terms-and-conditions.html">Terms &amp; Conditions</a>
+              </li>
+              <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+            </ul>
+
+            <p class="email-mobile">Denovers, LLC info@denovers.com</p>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="animation.js"></script>
+
+    <script src="Intel/intlTelInput.js"></script>
+<script >
+    var input = document.querySelector("#phoneNumber");
+let intlNumber = window.intlTelInput(input, {
+  // any initialisation options go here
+  // separateDialCode: true,
+  //   hiddenInput: "full",
+  utilsScript: "Intel/utils.js"
+});
+</script>
+    <!-- <script src="./scripts/UX-Audit.js"></script> -->
+ 
+  </body>
+</html>
